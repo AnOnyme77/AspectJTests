@@ -6,7 +6,10 @@ import java.util.stream.IntStream;
  * Give an example of time profiling of public methods
  *
  * Explain also the difference between call and execution :
- * Logs show that call is called before execution for each method.
+ * Logs show that call is called (and from the caller) before execution for each method.
+ * Execution is called in executor object.
+ *
+ * There may have problems with static methods and call.
  */
 
 public class MyAwesomeClass {
